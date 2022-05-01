@@ -4,7 +4,7 @@
 
 2. Create  a `New Project` with  `Name: CountWord`; for this example, and `Location: \\wsl$\LinuxDistro`.
 
-3. Import Hadoop's JARs in IDE, select the `File` tab and choose `Project Structure`. In `Project Setting/Modules` do click in `Add` and search the location of hadoop's JARs in `\\wsl$\LinuxDistro`
+3. Import Hadoop's JARs in IDE, select the `File` tab and choose `Project Structure`. In `Project Setting/Modules` do click on the second `Add` and search the location of hadoop's JARs in `\\wsl$\LinuxDistro`
     ```
     hadoop-3.2.3\share\hadoop\common\hadoop-common-3.2.3.jar
     hadoop-3.2.3\share\hadoop\mapreduce\hadoop-mapreduce-client-core-3.2.3.jar
