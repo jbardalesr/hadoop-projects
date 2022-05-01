@@ -14,7 +14,7 @@
 
 4. After to create the code `CountWord.java`, select `Build Project` tab, this create the `out/producction`
 
-5. Open again `Project Structure`, select `Artifacts`, and do click in `Add/JAR/From module with dependencies`, in dialog window select Main Class `CountWord` and do click in `OK`
+5. Open again `Project Structure`, select `Artifacts`, and do click in `Add/JAR/From module with dependencies`, in dialog window select Main Class `CountWord` and do click in `OK`. After in the tab `Build` select `Build Artifacs`
 
 6. Copy the files `CountWord.jar` and `input_file.txt` (Any text for example a book) in `~/data_hadoop`
 
