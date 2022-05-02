@@ -30,7 +30,7 @@
 
 8. Show output
     ```
-    hadoop dfs -cat /output_dir/*
+    hdfs dfs -cat /output_dir/*
     ```
 
 Solve problems
