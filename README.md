@@ -119,13 +119,13 @@ This is a combination of this tutorial https://phoenixnap.com/kb/install-hadoop-
    `jps`
 
 ### Util comands
-1. In Ubuntu
+1. On Ubuntu
    ```
    service ssh restart # solve Connection refused
    netstat -tlpn # check open ports in ubuntu
    git config --global credential.helper cache
    ```
-2. In Windows PowerShell
+2. On Windows PowerShell
    ```
    Test-NetConnection localhost -p 8088 # check connection to an specific port in Windows
    netsh interface portproxy add v4tov4 listenport=8088 listenaddress=0.0.0.0 connectport=8088 connectaddress=$($(wsl hostname -I).Trim()); #https://docs.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy
